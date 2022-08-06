@@ -8,8 +8,7 @@
 }
 
 body {
-   font-family: 'Roboto', 'Open Sans', sans-serif;
-   font-style: normal;
+   font-family: 'Roboto', sans-serif;
    color: var(--main-text-color);
    background-color: var(--main-header-color);
    padding: 0;
@@ -36,7 +35,7 @@ li {
 
 .logo-up,
 .logo-dawn {
-   font-family: 'Raleway', 'Open Sans', sans-serif;
+   font-family: 'Raleway', sans-serif;
    font-weight: 700;
    font-size: 26px;
    line-height: 1.19;
@@ -46,7 +45,7 @@ li {
 
 .logo-up {
    color: var(--header-color);
-   padding: 24px 93px 25px 215px;
+   margin: 24px 93px 25px 215px;
 }
 
 .web-logo {
@@ -64,8 +63,8 @@ li {
 }
 
 .navigation-second {
-   padding-left: 50px;
-   padding-right: 50px;
+   margin-left: 50px;
+   margin-right: 50px;
 }
 
 .up-contacts {
@@ -76,8 +75,8 @@ li {
 }
 
 .tel {
-   padding-left: 50px;
-   padding-right: 215px;
+   margin-left: 50px;
+   margin-right: 215px;
 }
 
 .navigation a,
@@ -153,6 +152,7 @@ li {
 
 .advantages h3 {
    font-weight: 700;
+   font-size: 14px;
    line-height: 1.14;
    text-transform: uppercase;
    color: var(--header-color);
@@ -194,7 +194,7 @@ li {
 }
 
 .work-pics li:not(:last-child) {
-   padding-right: 30px;
+   margin-right: 30px;
 }
 
 .team {
@@ -211,13 +211,17 @@ li {
 
 .teams {
    width: 1170px;
-   height: 368px;
+   height: 360px;
    display: flex;
    padding: 0 215px 94px 215px;
 }
 
 .teams li:not(:last-child) {
-   padding-right: 30px;
+   margin-right: 30px;
+}
+
+.teams  li {
+   background-color: var(--main-header-color);
 }
 
 .work,
@@ -259,7 +263,7 @@ footer {
 }
 
 .logo-dawn {
-   padding: 60px 0 20px 215px;
+   margin: 60px 0 20px 215px;
    color: var(--main-header-color);
 }
 
@@ -315,7 +319,6 @@ footer li:not(:last-child) {
 
 .button-portfolio button {
    height: 38px;
-   /*background-color: var(--background-color-teem);*/
    font-weight: 500;
    font-size: 16px;
    line-height: 1.62;
@@ -341,16 +344,16 @@ footer li:not(:last-child) {
 .example {
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-between;
+   gap: 25px;
    margin: 0;
    padding: 0;
+   margin-block: 0;
 }
 
 .example li {
    width: 370px;
    height: 404px;
    border: 1px solid #EEEEEE;
-   margin-bottom: 30px;
 }
 
 .example h2 {
